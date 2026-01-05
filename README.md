@@ -14,7 +14,7 @@ A unified interface for AI agents to understand how you work.
 
 ```bash
 # Clone to your home directory
-git clone https://github.com/YOUR_USERNAME/dotworld.git ~/.world
+git clone https://github.com/baiirun/dotworld.git ~/.world
 
 # Edit the files to match your life
 ```
@@ -31,7 +31,7 @@ git clone https://github.com/YOUR_USERNAME/dotworld.git ~/.world
 │   ├── personal.md
 │   └── *.md        # Add your own domains
 └── tasks/          # Task management system (optional)
-    └── DESIGN.md   # Design doc for the tasks CLI
+    └── README.md   # Setup instructions for tasks CLI
 ```
 
 ## How agents use it
@@ -53,6 +53,6 @@ The goal: agents have enough context to be useful without asking 20 questions.
 
 ## Tasks System
 
-The `tasks/` directory contains a design for a lightweight task management CLI for agents. See `tasks/DESIGN.md` for details.
+The `tasks/` directory is where the tasks CLI stores its database.
 
-The CLI itself lives in a separate repo: [tasks-go](https://github.com/YOUR_USERNAME/tasks-go)
+The CLI itself lives in a separate repo: [dotworld-tasks](https://github.com/baiirun/dotworld-tasks)

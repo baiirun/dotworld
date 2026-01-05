@@ -4,7 +4,7 @@ This directory is used by the `tasks` CLI for agent task management.
 
 ## Setup
 
-Install the CLI from [tasks-go](https://github.com/YOUR_USERNAME/tasks-go), then:
+Install the CLI from [dotworld-tasks](https://github.com/baiirun/dotworld-tasks), then:
 
 ```bash
 tasks init
