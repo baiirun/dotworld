@@ -1,0 +1,10 @@
+# Database
+tasks/*.db
+
+# OS
+.DS_Store
+
+# Editor
+*.swp
+*.swo
+*~
